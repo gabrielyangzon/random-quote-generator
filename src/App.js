@@ -55,7 +55,7 @@ function App() {
           margin: 5,
         }}
       >
-        <h2>Quote generator</h2>
+        <h2>Quotes generator</h2>
         {quoteComponent}
         <Button bgcolor={randomColor} onClick={onClickHandler}>
           Random

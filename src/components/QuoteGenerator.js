@@ -5,7 +5,7 @@ const QuoteGenerator = (props) => {
   return (
     <div>
       {text}
-      <br />-{author}
+      <br /> - {author}
     </div>
   );
 };

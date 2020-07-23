@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 export const Div = styled.div`
-  width: 50vh;
+  width: 50%;
   height: 100%;
-  border: 1px solid white;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  text-align: center;
 `;
 
 export const Button = styled.button`
